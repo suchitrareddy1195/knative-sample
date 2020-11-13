@@ -2,7 +2,7 @@ apiVersion: serving.knative.dev/v1
 kind: Configuration
 metadata:
   name: blue-green-demo
-  namespace: default
+  namespace: demo
 spec:
   template:
     spec:
